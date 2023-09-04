@@ -25,7 +25,6 @@ function Banner() {
     return string?.length > n ? string.substr(0, n - 1) + " . . ." : string;
   }
 
-  console.log(movie);
   return (
     <header
       className="banner"
